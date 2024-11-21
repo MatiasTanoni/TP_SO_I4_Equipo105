@@ -4,3 +4,8 @@ A- Azul
 B- Amarillo
 C- Amarillo
 D- Los dos ya que cuando beta quizo crear el favico no pudo ya que no se podian llamar igual y lo llamó favico2.
+E- Si, BETA
+F- El problema fue que alfa realizó el push primero y el repo local de BETA quedo desactualizado como para poder hacer un push
+G- La mejor seria que beta antes de modificar su archivo haga un git pull origin TESTING para traer las modificaciones de alfa a su repo local y luego hacer sus modificaciones y el push.
+H- BETA al ser el ultimo en pushear sobreescribe con sus datos lo pusheado por ALFA
+I- Hacer los push de uno en uno y luego de caa push, cada integrante que no pusheo hace un git pull para traer al repo local los cambios y luego ahi agregar sus datos. Tras eso hacer un merge de DESARROLLO a main
